@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "0 string SCHOOL School data file" > school.magic && file -C -m school.magic *
+echo -e "0 string SCHOOL\tSchool data file" > school.magic  file -C -m school.magic *  awk -F: '{print $1 ": " $2}'
+
