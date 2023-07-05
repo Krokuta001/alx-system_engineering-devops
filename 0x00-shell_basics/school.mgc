@@ -1,2 +1,2 @@
-#!/bin/bash
-echo -e "0 string SCHOOL\tSchool data file" > school.magic  mv school.magic ~/.magic  file -m ~/.magic *
+0 string SCHOOL School data
+!:mime School
