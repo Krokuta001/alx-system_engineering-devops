@@ -1,4 +1,4 @@
 #!/bin/bash
-find .-type f -name "*.gif" -empty -printf '%P\n'
+find .-type f -name "*.gif" -empty -printf '%P\n' | rev | cut -c 5- | rev | sort -f
 echo
 
