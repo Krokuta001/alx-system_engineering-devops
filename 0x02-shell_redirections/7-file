@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "Best school" > "\\*\\\\'\"Best school\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
-cat "\\*\\\\'\"Best school\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"
+filename='\\*\\\\'\''Best school'\''\\\\*$\\?\\*\\*\\*\\*\\*:)'
+printf "Best School\n" > "$filename"
+cat "$filename"
